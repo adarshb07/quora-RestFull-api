@@ -16,6 +16,9 @@
 			<div class="post">
 				<h3 class="user">@<em><%= post.username%></em></h3>
 				<p class="user"><%= post.content %></p>
+				<br />
+				<a href="/posts/<%= post.id %>">Show More</a> &nbsp;&nbsp;&nbsp;
+				<a href="/posts/<%= post.id %>/edit">Edit</a>
 			</div>
 			<% } %>
 		</main>
